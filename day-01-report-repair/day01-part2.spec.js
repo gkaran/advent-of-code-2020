@@ -1,6 +1,6 @@
 const reportRepair = require("./day01-part2");
 
-describe("Day 1:Report Repair - Part 2", () => {
+describe("Day 1: Report Repair - Part 2", () => {
   test("solve readme example", () => {
     expect(reportRepair([1721, 979, 366, 299, 675, 1456])).toBe(241861950);
   });

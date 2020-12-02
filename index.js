@@ -1,7 +1,7 @@
 const Table = require("cli-table");
 const printHero = require("./hero");
 
-const days = ["day-01-report-repair"];
+const days = ["day-01-report-repair", "day-02-password-philosophy"];
 
 printHero();
 

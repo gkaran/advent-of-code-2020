@@ -1,15 +1,14 @@
 const fs = require("fs");
 const path = require("path");
-const part1 = require("./day01-part1");
-const part2 = require("./day01-part2");
+const part1 = require("./day02-part1");
+const part2 = require("./day02-part2");
 
 const input = fs
   .readFileSync(path.join(__dirname, "input.txt"), "utf8")
-  .split("\n")
-  .map((v) => parseInt(v));
+  .split("\n");
 
 module.exports = {
-  name: "Day 1: Report Repair",
+  name: "Day 2: Password Philosophy",
   part1: () => part1(input),
   part2: () => part2(input),
 };
