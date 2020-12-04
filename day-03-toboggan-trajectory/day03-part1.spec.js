@@ -1,7 +1,7 @@
 const part1 = require("./day03-part1");
 
 describe("Day 3: Toboggan Trajectory - Part 1", () => {
-  test("solve exitREADME example", () =>
+  test("solve README example", () =>
     expect(
       part1([
         "..##.......",

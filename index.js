@@ -5,6 +5,7 @@ const days = [
   "day-01-report-repair",
   "day-02-password-philosophy",
   "day-03-toboggan-trajectory",
+  "day-04-password-processing",
 ];
 
 printHero();
