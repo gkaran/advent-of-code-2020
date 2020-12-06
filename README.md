@@ -10,8 +10,9 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Days
 
-- [Day 1: Report Repair](day-01-report-repair/)
-- [Day 2: Password Philosophy](day-02-password-philosophy/)
-- [Day 3: Toboggan Trajectory](day-03-toboggan-trajectory/)
-- [Day 4: Passport Processing](day-04-password-processing/)
-- [Day 5: Binary Boarding](day-05-binary-boarding/)
+- [Day 01: Report Repair](day-01-report-repair/)
+- [Day 02: Password Philosophy](day-02-password-philosophy/)
+- [Day 03: Toboggan Trajectory](day-03-toboggan-trajectory/)
+- [Day 04: Passport Processing](day-04-password-processing/)
+- [Day 05: Binary Boarding](day-05-binary-boarding/)
+- [Day 06: Custom Customs](day-06-custom-customs/)

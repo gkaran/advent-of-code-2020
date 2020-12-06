@@ -1,4 +1,4 @@
-const part1 = require("./day05-part1");
+const { part1 } = require("./day05-part1");
 
 describe("Day 5: Binary Boarding - Part 1", () => {
   test("solve README example: BFFFBBFRRR", () =>

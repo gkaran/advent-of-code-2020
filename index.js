@@ -7,6 +7,7 @@ const days = [
   "day-03-toboggan-trajectory",
   "day-04-password-processing",
   "day-05-binary-boarding",
+  "day-06-custom-customs",
 ];
 
 printHero();
