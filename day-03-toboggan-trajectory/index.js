@@ -8,7 +8,7 @@ const input = fs
   .split("\n");
 
 module.exports = {
-  name: "Day 3: Toboggan Trajectory",
+  name: "Day 03: Toboggan Trajectory",
   part1: () => part1(input),
   part2: () => part2(input),
 };

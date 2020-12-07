@@ -14,7 +14,10 @@ const days = [
 printHero();
 
 console.log("Puzzle Solutions:");
-const table = new Table({ head: ["", "Part 1", "Part 2"] });
+const table = new Table({
+  head: ["", "Part 1", "Part 2"],
+  colAligns: ["left", "right", "right"],
+});
 table.push(
   ...days.map((day) => {
     const puzzle = require(`./${day}`);

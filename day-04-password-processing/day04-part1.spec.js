@@ -1,6 +1,6 @@
 const part1 = require("./day04-part1");
 
-describe("Day 4: Passport Processing - Part 1", () => {
+describe("Day 04: Passport Processing - Part 1", () => {
   test("solve README example", () =>
     expect(
       part1(

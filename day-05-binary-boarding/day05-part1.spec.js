@@ -1,6 +1,6 @@
 const { part1 } = require("./day05-part1");
 
-describe("Day 5: Binary Boarding - Part 1", () => {
+describe("Day 05: Binary Boarding - Part 1", () => {
   test("solve README example: BFFFBBFRRR", () =>
     expect(part1(["BFFFBBFRRR"])).toBe(567));
 

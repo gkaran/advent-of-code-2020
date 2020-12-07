@@ -8,7 +8,7 @@ const input = fs
   .split("\n");
 
 module.exports = {
-  name: "Day 5: Binary Boarding",
+  name: "Day 05: Binary Boarding",
   part1: () => part1(input),
   part2: () => part2(input),
 };

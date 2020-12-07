@@ -9,7 +9,7 @@ const input = fs
   .map((v) => parseInt(v));
 
 module.exports = {
-  name: "Day 1: Report Repair",
+  name: "Day 01: Report Repair",
   part1: () => part1(input),
   part2: () => part2(input),
 };
