@@ -16,3 +16,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 04: Passport Processing](day-04-password-processing/)
 - [Day 05: Binary Boarding](day-05-binary-boarding/)
 - [Day 06: Custom Customs](day-06-custom-customs/)
+- [Day 07: Handy Haversacks](day-07-handy-haversacks/)

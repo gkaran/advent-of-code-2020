@@ -8,6 +8,7 @@ const days = [
   "day-04-password-processing",
   "day-05-binary-boarding",
   "day-06-custom-customs",
+  "day-07-handy-haversacks",
 ];
 
 printHero();
