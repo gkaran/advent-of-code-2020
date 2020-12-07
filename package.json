@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .js",
-    "hygen": "hygen"
+    "hygen": "hygen",
+    "new-day": "hygen day new"
   },
   "author": "George Karanikas <gkaran89@gmail.com>",
   "license": "MIT",
