@@ -1,9 +1,9 @@
-const part1 = require("./day07-part2");
+const part2 = require("./day07-part2");
 
 describe("Day 07: Handy Haversacks - Part 2", () => {
   test("solve README example", () =>
     expect(
-      part1(`light red bags contain 1 bright white bag, 2 muted yellow bags.
+      part2(`light red bags contain 1 bright white bag, 2 muted yellow bags.
 dark orange bags contain 3 bright white bags, 4 muted yellow bags.
 bright white bags contain 1 shiny gold bag.
 muted yellow bags contain 2 shiny gold bags, 9 faded blue bags.
@@ -16,7 +16,7 @@ dotted black bags contain no other bags.`)
 
   test("solve README 2nd example", () =>
     expect(
-      part1(`shiny gold bags contain 2 dark red bags.
+      part2(`shiny gold bags contain 2 dark red bags.
 dark red bags contain 2 dark orange bags.
 dark orange bags contain 2 dark yellow bags.
 dark yellow bags contain 2 dark green bags.
