@@ -10,6 +10,7 @@ const days = [
   "day-06-custom-customs",
   "day-07-handy-haversacks",
   "day-08-handheld-halting",
+  "day-09-encoding-error",
 ];
 
 printHero();
