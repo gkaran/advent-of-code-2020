@@ -11,6 +11,7 @@ const days = [
   "day-07-handy-haversacks",
   "day-08-handheld-halting",
   "day-09-encoding-error",
+  "day-10-adapter-array",
 ];
 
 printHero();
