@@ -19,13 +19,22 @@ printHero();
 
 console.log("Puzzle Solutions:");
 const table = new Table({
-  head: ["", "Part 1", "Part 2"],
-  colAligns: ["left", "right", "right"],
+  head: ["", "Part 1", "Time", "Part 2", "Time"],
+  colAligns: ["left", "right", "right", "right", "right"],
 });
 table.push(
   ...days.map((day) => {
     const puzzle = require(`./${day}`);
-    return { [puzzle.name]: [puzzle.part1(), puzzle.part2()] };
+    const part1Results = puzzle.part1();
+    const part2Results = puzzle.part2();
+    return {
+      [puzzle.name]: [
+        part1Results.result,
+        part1Results.time,
+        part2Results.result,
+        part2Results.time,
+      ],
+    };
   })
 );
 
