@@ -12,6 +12,7 @@ const days = [
   "day-08-handheld-halting",
   "day-09-encoding-error",
   "day-10-adapter-array",
+  "day-11-seating-system",
 ];
 
 printHero();
