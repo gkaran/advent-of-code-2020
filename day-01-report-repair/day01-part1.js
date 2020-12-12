@@ -1,12 +1,10 @@
-const _ = require("lodash");
-
 const reportRepair = (input) => {
-  const pair = input
-    .map((v, i) => input.slice(i + 1).map((w) => [v, w]))
-    .flat()
-    .filter((p) => _.sum(p) === 2020)[0];
-  if (!pair) throw new Error("No pair sums to 2020");
-  return _.reduce(pair, _.multiply);
+  for (let i = 0; i < input.length - 1; i++) {
+    for (let j = 0; j < input.length - i; j++) {
+      if (input[i] + input[i + j] === 2020) return input[i] * input[i + j];
+    }
+  }
+  throw new Error("No pair sums to 2020");
 };
 
 module.exports = reportRepair;
