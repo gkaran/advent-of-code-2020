@@ -13,6 +13,7 @@ const days = [
   "day-09-encoding-error",
   "day-10-adapter-array",
   "day-11-seating-system",
+  "day-12-rain-risk",
 ];
 
 printHero();

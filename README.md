@@ -21,3 +21,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 09: Encoding Error](day-09-encoding-error/)
 - [Day 10: Adapter Array](day-10-adapter-array/)
 - [Day 11: Seating System](day-11-seating-system/)
+- [Day 12: Rain Risk](day-12-rain-risk/)
