@@ -1,5 +1,6 @@
 const Table = require("cli-table");
 const printHero = require("./hero");
+const prettyMilliseconds = require("pretty-ms");
 
 const days = [
   "day-01-report-repair",
@@ -18,16 +19,17 @@ const days = [
 
 printHero();
 
-console.log("Puzzle Solutions:");
 const table = new Table({
   head: ["", "Part 1", "Time", "Part 2", "Time"],
   colAligns: ["left", "right", "right", "right", "right"],
 });
+let totalTime = 0;
 table.push(
   ...days.map((day) => {
     const puzzle = require(`./${day}`);
     const part1Results = puzzle.part1();
     const part2Results = puzzle.part2();
+    totalTime += part1Results.timeRaw + part2Results.timeRaw;
     return {
       [puzzle.name]: [
         part1Results.result,
@@ -39,4 +41,5 @@ table.push(
   })
 );
 
+console.log(`Puzzle Solutions (${prettyMilliseconds(totalTime)}):`);
 console.log(table.toString());
