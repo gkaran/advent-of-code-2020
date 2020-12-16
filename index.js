@@ -15,6 +15,7 @@ const days = [
   "day-10-adapter-array",
   "day-11-seating-system",
   "day-12-rain-risk",
+  "day-13-shuttle-search",
 ];
 
 printHero();
