@@ -17,6 +17,7 @@ const days = [
   "day-12-rain-risk",
   "day-13-shuttle-search",
   "day-14-docking-data",
+  "day-15-rambunctious-recitation",
 ];
 
 printHero();
