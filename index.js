@@ -18,6 +18,7 @@ const days = [
   "day-13-shuttle-search",
   "day-14-docking-data",
   "day-15-rambunctious-recitation",
+  "day-16-ticket-translation",
 ];
 
 printHero();
