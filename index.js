@@ -19,6 +19,7 @@ const days = [
   "day-14-docking-data",
   "day-15-rambunctious-recitation",
   "day-16-ticket-translation",
+  "day-17-conway-cubes",
 ];
 
 printHero();
